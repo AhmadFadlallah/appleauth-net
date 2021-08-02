@@ -21,5 +21,8 @@
         /// Information about the user. Send only the first time the user signs in.
         /// </summary>
         public string user { get; set; }
+        
+        //if the user decides to cancel the authorization process, a string error will be send in the request. 
+        public string error { get; set; }
     }
 }
